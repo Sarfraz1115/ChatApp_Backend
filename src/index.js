@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 4000;
 app.use(express.json({limit: '10mb'}));  // this is allow to us extract json data out of file
 app.use(cookieParser());
 app.use(cors({
-    origin: "http://localhost:5173",
+    origin: "https://chat-app-frontend-nu.vercel.app",
     credentials: true,
 }))
 
